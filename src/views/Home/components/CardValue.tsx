@@ -1,6 +1,8 @@
 import React, { useEffect, useRef } from 'react'
 import { useCountUp } from 'react-countup'
 import { Text } from 'rocket-finance-uikit'
+import getColor from 'style/Colors'
+import styled from 'styled-components'
 
 export interface CardValueProps {
   value: number
@@ -12,6 +14,10 @@ export interface CardValueProps {
   color?: string
 }
 
+const StyledText = styled(Text)`
+  color: ${({ theme }) => getColor(theme.isDark).nine};
+`
+
 const CardValue: React.FC<CardValueProps> = ({
   value,
   decimals,
@@ -19,7 +25,6 @@ const CardValue: React.FC<CardValueProps> = ({
   lineHeight = '1',
   prefix = '',
   bold = true,
-  color = 'text',
 }) => {
   const { countUp, update } = useCountUp({
     start: 0,
@@ -38,10 +43,10 @@ const CardValue: React.FC<CardValueProps> = ({
   }, [value, updateValue])
 
   return (
-    <Text bold={bold} fontSize={fontSize} style={{ lineHeight }} color={color}>
+    <StyledText bold={bold} fontSize={fontSize} style={{ lineHeight }}>
       {prefix}
       {countUp}
-    </Text>
+    </StyledText>
   )
 }
 

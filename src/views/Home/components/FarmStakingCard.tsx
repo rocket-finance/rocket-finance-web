@@ -6,6 +6,7 @@ import useI18n from 'hooks/useI18n'
 import { useAllHarvest } from 'hooks/useHarvest'
 import useFarmsWithBalance from 'hooks/useFarmsWithBalance'
 import UnlockButton from 'components/UnlockButton'
+import getColor from 'style/Colors'
 import CakeHarvestBalance from './CakeHarvestBalance'
 import CakeWalletBalance from './CakeWalletBalance'
 import { BASE_URL } from '../../../config'
@@ -39,6 +40,40 @@ const TertiaryButton = styled(Button)`
   margin: 5px 0;
 `
 
+const StyledHeading = styled(Heading)`
+  color: ${({ theme }) => getColor(theme.isDark).seventh};
+`
+
+const StyledLabel = styled(Label)`
+  color: ${({ theme }) => getColor(theme.isDark).sixth};
+`
+
+const StyledUnlockButton = styled(UnlockButton)`
+  background: none;
+  border: ${({ theme }) => `1px solid ${getColor(theme.isDark).seventh}`};
+  color: ${({ theme }) => getColor(theme.isDark).seventh};
+`
+
+const HarvestButton = styled(Button)`
+  background: ${({ theme }) => getColor(theme.isDark).eight};
+  color: ${({ theme }) => getColor(theme.isDark).first};
+  box-shadow: ${({ theme }) => `0px 2px 8px${getColor(theme.isDark).sixth}`};
+`
+
+const AddRocketsToMetamask = styled(TertiaryButton)`
+  background: ${({ theme }) => getColor(theme.isDark).eight};
+  color: ${({ theme }) => getColor(theme.isDark).first};
+  box-shadow: ${({ theme }) => `0px 2px 8px${getColor(theme.isDark).sixth}`};
+`
+
+const ViewOnBscScan = styled(LinkExternal)`
+  a {
+    svg {
+      fill: red;
+    }
+  }
+`
+
 const FarmedStakingCard = () => {
   const [pendingTx, setPendingTx] = useState(false)
   const { account } = useWeb3React()
@@ -60,42 +95,42 @@ const FarmedStakingCard = () => {
   }, [onReward])
 
   const tokenImageSrc = `${BASE_URL}/images/farms/rocket.png`
-  const tokenName = `TAPS`
+  const tokenName = `ROCKETS`
   const tokenAddress = `0xcc0743bc0b2122a43881aac5597650ce82d9caaa`
 
   return (
     <StyledFarmStakingCard>
       <CardBody>
-        <Heading size="lg" mb="24px">
+        <StyledHeading size="lg" mb="24px">
           {TranslateString(542, 'Farms & Staking')}
-        </Heading>
+        </StyledHeading>
         <Block>
-          <Label>{TranslateString(544, 'ROCKETs to Harvest')}:</Label>
+          <StyledLabel>{TranslateString(544, 'ROCKETs to Harvest')}:</StyledLabel>
           <CakeHarvestBalance />
         </Block>
         <Block>
-          <Label>{TranslateString(546, 'ROCKETs in Wallet')}:</Label>
+          <StyledLabel>{TranslateString(546, 'ROCKETs in Wallet')}:</StyledLabel>
           <CakeWalletBalance />
         </Block>
         <Actions>
           {account ? (
-            <Button
+            <HarvestButton
               id="harvest-all"
-              disabled={balancesWithValue.length <= 0 || pendingTx}
+              // disabled={balancesWithValue.length <= 0 || pendingTx}
               onClick={harvestAllFarms}
               width="100%"
             >
               {pendingTx
                 ? TranslateString(548, 'Collecting ROCKET')
                 : TranslateString(532, `Harvest all (${balancesWithValue.length})`)}
-            </Button>
+            </HarvestButton>
           ) : (
-            <UnlockButton width="100%" />
+            <StyledUnlockButton width="100%" />
           )}
         </Actions>
 
         <Block>
-          <TertiaryButton
+          <AddRocketsToMetamask
             variant="primary"
             scale="sm"
             onClick={() => registerToken(tokenAddress, tokenName, 18, tokenImageSrc)}
@@ -103,12 +138,16 @@ const FarmedStakingCard = () => {
             width="100%"
           >
             Add {tokenName} to Metamask
-          </TertiaryButton>
-          <TertiaryButton variant="primary" scale="sm" width="100%">
-            <LinkExternal to="https://bscscan.com/token/0xcc0743bc0b2122a43881aac5597650ce82d9caaa" color="#ffffff">
+          </AddRocketsToMetamask>
+          <AddRocketsToMetamask variant="primary" scale="sm" width="100%">
+            <LinkExternal
+              showIcon={false}
+              to="https://bscscan.com/token/0xcc0743bc0b2122a43881aac5597650ce82d9caaa"
+              color="#ffffff"
+            >
               {TranslateString(356, 'View on BscScan')}
             </LinkExternal>
-          </TertiaryButton>
+          </AddRocketsToMetamask>
         </Block>
       </CardBody>
     </StyledFarmStakingCard>

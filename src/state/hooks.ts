@@ -259,7 +259,7 @@ export const useTotalValue = (): BigNumber => {
 
     // total liquidity
     let bushValue = new BigNumber(0)
-    if (bush.stakingTokenName === QuoteToken.TAPS) {
+    if (bush.stakingTokenName === QuoteToken.ROCKETS) {
       bushValue = new BigNumber(bush.totalStaked).div(new BigNumber(10).pow(18)).multipliedBy(cakePrice)
     }
 

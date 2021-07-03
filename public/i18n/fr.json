@@ -81,7 +81,7 @@
     {
       "data": {
         "stringId": 304,
-        "text": "Total de TAPS brûlé depuis le lancement"
+        "text": "Total de ROCKETS brûlé depuis le lancement"
       }
     },
     {
@@ -129,7 +129,7 @@
     {
       "data": {
         "stringId": 320,
-        "text": "Déposez vos LP pour gagner des TAPS"
+        "text": "Déposez vos LP pour gagner des ROCKETS"
       }
     },
     {
@@ -159,7 +159,7 @@
     {
       "data": {
         "stringId": 334,
-        "text": "Chaque fois que vous déposez et retirez des TAPS, le contrat récoltera automatiquement les récompenses TAPS pour vous!"
+        "text": "Chaque fois que vous déposez et retirez des ROCKETS, le contrat récoltera automatiquement les récompenses ROCKETS pour vous!"
       }
     },
     {
@@ -249,7 +249,7 @@
     {
       "data": {
         "stringId": 380,
-        "text": "1 TAPS = 1 SYRUP"
+        "text": "1 ROCKETS = 1 SYRUP"
       }
     },
     {
@@ -297,7 +297,7 @@
     {
       "data": {
         "stringId": 400,
-        "text": "SYRUP holders proportionally split 25% of TAPS block emissions each day (10 TAPS per block), Rewards are distributed each block."
+        "text": "SYRUP holders proportionally split 25% of ROCKETS block emissions each day (10 ROCKETS per block), Rewards are distributed each block."
       }
     },
     {
@@ -357,13 +357,13 @@
     {
       "data": {
         "stringId": 424,
-        "text": "%num% TAPS"
+        "text": "%num% ROCKETS"
       }
     },
     {
       "data": {
         "stringId": 426,
-        "text": "Spend TAPS to buy tickets, contributing to the lottery pot. Ticket purchases end approx. 30 minutes before lottery. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their positions! Good luck!"
+        "text": "Spend ROCKETS to buy tickets, contributing to the lottery pot. Ticket purchases end approx. 30 minutes before lottery. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their positions! Good luck!"
       }
     },
     {
@@ -441,19 +441,19 @@
     {
       "data": {
         "stringId": 454,
-        "text": "%num% TAPS Available"
+        "text": "%num% ROCKETS Available"
       }
     },
     {
       "data": {
         "stringId": 456,
-        "text": "Your amount must be a multiple of 10 TAPS"
+        "text": "Your amount must be a multiple of 10 ROCKETS"
       }
     },
     {
       "data": {
         "stringId": 458,
-        "text": "1 Ticket = 10 TAPS"
+        "text": "1 Ticket = 10 ROCKETS"
       }
     },
     {
@@ -501,7 +501,7 @@
     {
       "data": {
         "stringId": 478,
-        "text": "Ticket purchases are final. Your TAPS cannot be returned to you after buying tickets."
+        "text": "Ticket purchases are final. Your ROCKETS cannot be returned to you after buying tickets."
       }
     },
     {
@@ -513,7 +513,7 @@
     {
       "data": {
         "stringId": 482,
-        "text": "TAPS prizes to be claimed"
+        "text": "ROCKETS prizes to be claimed"
       }
     },
     {
@@ -549,13 +549,13 @@
     {
       "data": {
         "stringId": 494,
-        "text": "Approve TAPS"
+        "text": "Approve ROCKETS"
       }
     },
     {
       "data": {
         "stringId": 496,
-        "text": "SYRUP holders proportionally split 40% of TAPS block emissions each day (10 TAPS per block), Rewards are distributed each block."
+        "text": "SYRUP holders proportionally split 40% of ROCKETS block emissions each day (10 ROCKETS per block), Rewards are distributed each block."
       }
     },
     {
@@ -573,19 +573,19 @@
     {
       "data": {
         "stringId": 504,
-        "text": "You\u2019ll pay for the new tokens using TAPS-BNB LP tokens, which means you need to stake equal amounts of TAPS and BNB in a liquidity pool to take part."
+        "text": "You\u2019ll pay for the new tokens using ROCKETS-BNB LP tokens, which means you need to stake equal amounts of ROCKETS and BNB in a liquidity pool to take part."
       }
     },
     {
       "data": {
         "stringId": 506,
-        "text": "Get TAPS-BNB LP >"
+        "text": "Get ROCKETS-BNB LP >"
       }
     },
     {
       "data": {
         "stringId": 508,
-        "text": "The project gets the BNB, TapSwap burns the TAPS."
+        "text": "The project gets the BNB, TapSwap burns the ROCKETS."
       }
     },
     {
@@ -669,7 +669,7 @@
     {
       "data": {
         "stringId": 540,
-        "text": "Nouveau TAPS\/bloc"
+        "text": "Nouveau ROCKETS/bloc"
       }
     },
     {
@@ -681,19 +681,19 @@
     {
       "data": {
         "stringId": 544,
-        "text": "TAPS à récolter"
+        "text": "ROCKETS à récolter"
       }
     },
     {
       "data": {
         "stringId": 546,
-        "text": "TAPS en portefeuille"
+        "text": "ROCKETS en portefeuille"
       }
     },
     {
       "data": {
         "stringId": 548,
-        "text": "Récolter les TAPS"
+        "text": "Récolter les ROCKETS"
       }
     },
     {
@@ -705,7 +705,7 @@
     {
       "data": {
         "stringId": 552,
-        "text": "TAPS à récolter"
+        "text": "ROCKETS à récolter"
       }
     },
     {
@@ -771,7 +771,7 @@
     {
       "data": {
         "stringId": 580,
-        "text": "Déposer des TAPS et TAPS LPs pour en gagner d'autres."
+        "text": "Déposer des ROCKETS et ROCKETS LPs pour en gagner d'autres."
       }
     },
     {
@@ -789,7 +789,7 @@
     {
       "data": {
         "stringId": 586,
-        "text": "TAPS à bruler (USD)"
+        "text": "ROCKETS à bruler (USD)"
       }
     },
     {
@@ -801,7 +801,7 @@
     {
       "data": {
         "stringId": 590,
-        "text": "\u2b50\ufe0f Every time you stake and unstake LP tokens, the contract will automatically harvest TAPS rewards for you!"
+        "text": "\u2b50\ufe0f Every time you stake and unstake LP tokens, the contract will automatically harvest ROCKETS rewards for you!"
       }
     },
     {
@@ -819,13 +819,13 @@
     {
       "data": {
         "stringId": 596,
-        "text": "Buy TAPS and BNB tokens"
+        "text": "Buy ROCKETS and BNB tokens"
       }
     },
     {
       "data": {
         "stringId": 598,
-        "text": "Get TAPS-BNB LP tokens by adding TAPS and BNB liquidity"
+        "text": "Get ROCKETS-BNB LP tokens by adding ROCKETS and BNB liquidity"
       }
     },
     {
@@ -837,7 +837,7 @@
     {
       "data": {
         "stringId": 602,
-        "text": "While the sale is live, commit your TAPS-LP tokens to buy the IFO tokens"
+        "text": "While the sale is live, commit your ROCKETS-LP tokens to buy the IFO tokens"
       }
     },
     {
@@ -873,7 +873,7 @@
     {
       "data": {
         "stringId": 614,
-        "text": "Trade in for TAPS, or keep for your collection!"
+        "text": "Trade in for ROCKETS, or keep for your collection!"
       }
     },
     {
@@ -915,7 +915,7 @@
     {
       "data": {
         "stringId": 628,
-        "text": "When you trade in this NFT to receive TAPS, you will lose access to it forever!"
+        "text": "When you trade in this NFT to receive ROCKETS, you will lose access to it forever!"
       }
     },
     {
@@ -945,7 +945,7 @@
     {
       "data": {
         "stringId": 638,
-        "text": "Winners can trade in their NFTs for a TAPS value until the expiry date written below. If you don't trade in your NFT by then, don\u2019t worry: you\u2019ll still keep it in your wallet!"
+        "text": "Winners can trade in their NFTs for a ROCKETS value until the expiry date written below. If you don't trade in your NFT by then, don\u2019t worry: you\u2019ll still keep it in your wallet!"
       }
     },
     {
@@ -987,7 +987,7 @@
     {
       "data": {
         "stringId": 654,
-        "text": "Trade in for TAPS"
+        "text": "Trade in for ROCKETS"
       }
     },
     {
@@ -1113,7 +1113,7 @@
     {
       "data": {
         "stringId": 696,
-        "text": "Stake LP tokens to earn TAPS"
+        "text": "Stake LP tokens to earn ROCKETS"
       }
     },
     {
@@ -1149,13 +1149,13 @@
     {
       "data": {
         "stringId": 708,
-        "text": "The TAPS Lottery"
+        "text": "The ROCKETS Lottery"
       }
     },
     {
       "data": {
         "stringId": 710,
-        "text": "Buy tickets with TAPS"
+        "text": "Buy tickets with ROCKETS"
       }
     },
     {
@@ -1239,7 +1239,7 @@
     {
       "data": {
         "stringId": 734,
-        "text": "du $TAPS maintenant!"
+        "text": "du $ROCKETS maintenant!"
       }
     },
     {
@@ -1305,7 +1305,7 @@
     {
       "data": {
         "stringId": 10000,
-        "text": "Les frais de dépôt seront utilisés pour racheter des TAPS"
+        "text": "Les frais de dépôt seront utilisés pour racheter des ROCKETS"
       }
     },
     {
@@ -1317,7 +1317,7 @@
     {
       "data": {
         "stringId": 10002,
-        "text": "Déposer vos tokens pour gagner des TAPS"
+        "text": "Déposer vos tokens pour gagner des ROCKETS"
       }
     },
     {

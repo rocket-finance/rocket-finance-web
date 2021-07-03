@@ -6,7 +6,7 @@ const pools: PoolConfig[] = [
   //   tokenName: 'BUSD',
   //   tokenLabel: 'BUSD v1',
   //   tokenAddress: '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56',
-  //   stakingTokenName: QuoteToken.TAPS,
+  //   stakingTokenName: QuoteToken.ROCKETS,
   //   stakingTokenAddress: '0xcc0743bc0b2122a43881aac5597650ce82d9caaa',
   //   stakingTokenDecimals: 18,
   //   contractAddress: {
@@ -30,7 +30,7 @@ const pools: PoolConfig[] = [
   //   tokenName: 'WBNB',
   //   tokenLabel: 'WBNB v1',
   //   tokenAddress: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
-  //   stakingTokenName: QuoteToken.TAPS,
+  //   stakingTokenName: QuoteToken.ROCKETS,
   //   stakingTokenAddress: '0xcc0743bc0b2122a43881aac5597650ce82d9caaa',
   //   stakingTokenDecimals: 18,
   //   contractAddress: {

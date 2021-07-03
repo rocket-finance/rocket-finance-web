@@ -139,7 +139,7 @@ const data = {
     },
     {
       title: 'What will happens to my liquidities if I stay in OLD farms ?',
-      content: `Your liquidities will always be available for withdrawal. Your funds are SAFU. When all liquidities (or a large amount of at least 80%) will be moved from Pancakeswap to ApeSwap, the actual 2 farms using Pancakeswap will be deactivated. You will always be able to find these farms into the inactive tab and withdraw your funds. When these farms will be deactivated, no more $TAPS rewards will be distributed (APR = 0%). Read more about the TapSwap & ApeSwap partnership in this <a href="https://tapswapmoneydex.medium.com/partnership-with-apeswap-finance-c1dd2dd44eee" target="_blank" style="color: orange;font-weight: bold">blog post</a>.`,
+      content: `Your liquidities will always be available for withdrawal. Your funds are SAFU. When all liquidities (or a large amount of at least 80%) will be moved from Pancakeswap to ApeSwap, the actual 2 farms using Pancakeswap will be deactivated. You will always be able to find these farms into the inactive tab and withdraw your funds. When these farms will be deactivated, no more $ROCKETS rewards will be distributed (APR = 0%). Read more about the TapSwap & ApeSwap partnership in this <a href="https://tapswapmoneydex.medium.com/partnership-with-apeswap-finance-c1dd2dd44eee" target="_blank" style="color: orange;font-weight: bold">blog post</a>.`,
     },
     // {
     //   title: 'What are the risks of using ApeSawp LP vs PanCakeSwap LP ?',

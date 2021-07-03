@@ -68,7 +68,7 @@ const ComingSoon = () => {
               </LiquidityLink>
             </Text>
             <Text mb={3}>
-              {TranslateString(508, 'The project gets the BNB, TapSwap burns the TAPS.')}
+              {TranslateString(508, 'The project gets the BNB, TapSwap burns the ROCKETS.')}
               <br />
               <strong>{TranslateString(510, 'You get the tokens.')}</strong>
             </Text>

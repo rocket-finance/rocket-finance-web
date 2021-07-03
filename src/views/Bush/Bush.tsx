@@ -79,7 +79,7 @@ const Bush: React.FC = () => {
 
     // total liquidity
     let totalValue = new BigNumber(0)
-    if (pool.stakingTokenName === QuoteToken.TAPS) {
+    if (pool.stakingTokenName === QuoteToken.ROCKETS) {
       totalValue = new BigNumber(pool.totalStaked).div(new BigNumber(10).pow(18)).multipliedBy(cakePrice)
     }
 

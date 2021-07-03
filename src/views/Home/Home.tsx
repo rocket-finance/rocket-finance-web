@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Heading, Text, BaseLayout, Button, HelpIcon } from 'rocket-finance-uikit'
+import { Heading, Text, BaseLayout, Button, HelpIcon, ButtonProps } from 'rocket-finance-uikit'
 import useI18n from 'hooks/useI18n'
 import Page from 'components/layout/Page'
 import FarmStakingCard from 'views/Home/components/FarmStakingCard'
@@ -12,6 +12,7 @@ import EarnAssetCard from 'views/Home/components/EarnAssetCard'
 import WinCard from 'views/Home/components/WinCard'
 import TwitterCard from 'views/Home/components/TwitterCard'
 import ListedOn from 'views/Home/components/ListedOn'
+import getColor from 'style/Colors'
 import AuditCard from './components/AuditCard'
 
 const Hero = styled.div`
@@ -77,7 +78,7 @@ const CTACards = styled(BaseLayout)`
 
 const Header = styled.div`
   padding: 32px 0px;
-  background: ${({ theme }) => theme.colors.gradients.bubblegum};
+  background: none;
 
   padding-left: 16px;
   padding-right: 16px;
@@ -93,22 +94,32 @@ const TokenImage = styled.img`
   margin-right: 5px;
 `
 
+const BuyRocketButton = styled(Button)<ButtonProps>`
+  background: none;
+  color: ${({ theme }) => getColor(theme.isDark).seventh};
+  border: ${({ theme }) => `1px solid ${getColor(theme.isDark).seventh}`};
+`
+
+const StyledHeading = styled(Heading)`
+  color: ${({ theme }) => getColor(theme.isDark).seventh};
+`
+
 const Home: React.FC = () => {
   const TranslateString = useI18n()
 
   return (
     <>
       <Header>
-        <Heading as="h1" size="xl" color="secondary" mb="24px">
+        <StyledHeading as="h1" size="xl" color="secondary" mb="24px">
           {TranslateString(578, 'AMM +Yield Aggregator on Binance Smartchain')}
-        </Heading>
+        </StyledHeading>
         <Heading size="lg" color="text">
           <a href="https://swap.tapswap.money/#/swap?inputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56&outputCurrency=0xcc0743bc0b2122a43881aac5597650ce82d9caaa">
-            <Button variant="subtle">
+            <BuyRocketButton>
               {TranslateString(733, 'GET')}{' '}
               <TokenImage src="/images/farms/rocket.png" alt="ROCKET Token" width="70" height="70" />{' '}
               {TranslateString(734, 'ROCKET  Now!')}
-            </Button>
+            </BuyRocketButton>
           </a>
         </Heading>
       </Header>
