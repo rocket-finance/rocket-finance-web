@@ -65,15 +65,6 @@ const AddRocketsToMetamask = styled(TertiaryButton)`
   color: ${({ theme }) => getColor(theme.isDark).first};
   box-shadow: ${({ theme }) => `0px 2px 8px${getColor(theme.isDark).sixth}`};
 `
-
-const ViewOnBscScan = styled(LinkExternal)`
-  a {
-    svg {
-      fill: red;
-    }
-  }
-`
-
 const FarmedStakingCard = () => {
   const [pendingTx, setPendingTx] = useState(false)
   const { account } = useWeb3React()
