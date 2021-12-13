@@ -13,7 +13,6 @@ import { BASE_URL } from '../../../config'
 import registerToken from '../../../utils/metamaskUtils'
 
 const StyledFarmStakingCard = styled(Card)`
-  background-image: ${({ theme }) => (theme.isDark ? "url('/images/cake-bg-dark.png')" : "url('/images/cake-bg.png')")};
   background-repeat: no-repeat;
   background-position: top right;
   min-height: 376px;
