@@ -391,7 +391,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
   return (
     <>
       <Header>
-        <Heading as="h1" size="xxl" color="secondary" mb="24px">
+        <Heading as="h1" size="xxl" color="textSubtle" mb="24px">
           {tokenMode ? TranslateString(10002, 'Stake tokens to earn ROCKET') : TranslateString(320, '')}
         </Heading>
         <Heading size="lg" color="text">
@@ -458,7 +458,6 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
           </FilterContainer>
         </ControlContainer>
         {renderContent()}
-        <Image src="/images/taps/8.png" alt="illustration" width={1352} height={587} responsive />
       </Page>
     </>
   )
