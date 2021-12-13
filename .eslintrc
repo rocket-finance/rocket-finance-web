@@ -27,7 +27,9 @@
     "@typescript-eslint/no-explicit-any": 0,
     "radix": 0,
     "import/no-extraneous-dependencies": 0,
-    "jsx-a11y/media-has-caption": 0
+    "jsx-a11y/media-has-caption": 0, 
+    "react/prop-types": "off" ,// Since we do not use prop-types
+    "react/require-default-props": "off" // Since we do not use prop-types
     // End temporary rules
   }
 }
