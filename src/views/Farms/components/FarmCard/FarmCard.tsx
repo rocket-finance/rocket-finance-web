@@ -2,7 +2,6 @@ import React, { useMemo, useState } from 'react'
 import BigNumber from 'bignumber.js'
 import styled, { keyframes } from 'styled-components'
 import { Flex, Text, Skeleton, Link } from 'rocket-finance-uikit'
-import { communityFarms } from 'config/constants'
 import { Farm } from 'state/types'
 import { provider as ProviderType } from 'web3-core'
 import useI18n from 'hooks/useI18n'
@@ -86,30 +85,6 @@ const Divider = styled.div`
 const ExpandingWrapper = styled.div<{ expanded: boolean }>`
   height: ${(props) => (props.expanded ? '100%' : '0px')};
   overflow: hidden;
-`
-
-const Ribbon = styled.div`
-  background-position: right top;
-  background-repeat: no-repeat;
-  height: 7em;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 6em;
-  background-size: contain;
-  z-index: 999;
-`
-
-const ApeLpRibbon = styled(Ribbon)`
-  background-image: url(/images/ribbon_ape.svg);
-`
-
-const PscLpRibbon = styled(Ribbon)`
-  background-image: url(/images/ribbon_psc.svg);
-`
-
-const PscOldLpRibbon = styled(Ribbon)`
-  background-image: url(/images/ribbon_old.svg);
 `
 
 interface FarmCardProps {
