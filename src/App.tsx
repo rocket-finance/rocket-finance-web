@@ -27,6 +27,8 @@ const Team = lazy(() => import('./views/Teams/Team'))
 const Profile = lazy(() => import('./views/Profile'))
 const Bush = lazy(() => import('./views/Bush'))
 
+const Ilo = lazy(() => import('./views/Ilo'))
+
 // This config is required for number formating
 BigNumber.config({
   EXPONENTIAL_AT: 1000,
@@ -64,6 +66,9 @@ const App: React.FC = () => {
             </Route>
             <Route path="/bush">
               <Bush />
+            </Route>
+            <Route path="/ilo">
+              <Ilo />
             </Route>
             {/* 404 */}
             <Route component={NotFound} />
